@@ -1,9 +1,9 @@
-body {background: lightblue;}
+body {background: rgb(72, 68, 68);}
 
 .overons {display: flex;
 flex-direction: column;
 width: 80%;
-background-color: purple;}
+background-color: rgb(27, 22, 22);}
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     background-color: #2e222e;
-    color: #fff;
+    color: #ffffff;
     padding: 1em;
     text-align: center;
 }
@@ -56,14 +56,16 @@ section {
     justify-content: space-between;
     gap: 1em;
     word-wrap: break-word;
+
 }
 
 .workshops-item {
     flex: 1;
-    background-color: #f4f4f4;
+    background-color: #252525;
     padding: 1em;
     border-radius: 8px;
     text-align: center;
+    color: #fff;
 }
 
 .workshops-item h3 {
@@ -102,17 +104,40 @@ section {
     border-radius: 8px;
     margin-bottom: 0.5em;
 }
-/* Variatie in grootte */
+
+
+
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.home-item {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.home-item img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
 .large {
-    flex: 2 1 45%; /* Groter formaat, neemt meer ruimte in */
+    flex: 2 1 45%;
 }
 
 .medium {
-    flex: 1 1 30%; /* Standaard formaat */
+    flex: 1 1 30%;
 }
 
 .small {
-    flex: 1 1 20%; /* Klein formaat */
+    flex: 1 1 20%; 
 }
 
 .service-item h3 {
